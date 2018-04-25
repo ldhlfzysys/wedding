@@ -1,0 +1,17 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+page {
+    background-color: #fff;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}

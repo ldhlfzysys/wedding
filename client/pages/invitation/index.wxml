@@ -1,0 +1,37 @@
+<!--pages/invitation/index.wxml-->
+<view class="container">
+  <view class="savethedate">
+    <image src="/images/save_the_date_pu.gif" width="100%"/>
+  </view>
+  <view class="name">
+    <span class="fl">刘东寰</span>
+    <span class="fr">林芳珍</span>  
+  </view>
+  <view class="diamond">
+    <image src="/images/diamond-divider.png" width="100%"/>
+  </view>
+  <view class="date">
+    <view>本人兹定于 2019年2月9日 星期六</view>
+    <view>农历 正月初五</view>
+    <view>举办婚礼</view>
+  </view>
+  <view class='detail'>
+    <view class="s_icon"><image src="/images/hotel.png"/></view>
+    <view class="address">席设:中凯国际酒店国宴厅</view>
+    <view class="s_icon"><image src="/images/address.png"/></view>
+    <view class="address">地址:中凯国际酒店</view>
+  </view>
+  <view class="words">
+    <image src="/images/words.png" width="100%"/>
+  </view>
+  <view class="tel">
+    <view class="tel_he" wx:if="{{mainInfo.he_tel}}">
+      <view class="call" bindtap="callhe"><image src="/images/he.png" width="100%"/></view> 
+      呼叫新郎
+    </view>
+    <view class="tel_she" wx:if="{{mainInfo.she_tel}}">
+      <view class="call" bindtap="callshe"><image src="/images/she.png" width="100%"/></view>
+      呼叫新娘
+    </view>
+  </view>
+</view>
